@@ -8,7 +8,7 @@
     "url": "git+ssh://git@github.com/learn-co-curriculum/js-principles-scope-lab.git"
   },
   "scripts": {
-    "test": "mocha -R mocha-multi --reporter-options spec=-,json=.results.json"
+    "test": "mocha -R mocha-multi --timeout 5000 --reporter-options spec=-,json=.results.json"
   },
   "keywords": [
     "learn",
